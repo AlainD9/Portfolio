@@ -15,13 +15,18 @@
         <h1>
             Me myself n I
         </h1>
-        <nav alt="Page menu"> 
-            <button>Menu</button>
-            <a class="hiddenMenu" href="#projects" alt="Click here to see Alain Durand's projects">Projects</a>
-            <a class="hiddenMenu" href="#aboutMe" alt="Click here to learn more about Alain Durand">More about me</a>
-            <a class="hiddenMenu" href="#articles" alt="Click here to read some articles Alain Durand wrote">My articles</a>
-            <a class="hiddenMenu" href="#contact" alt="Click here to contact Alain Durand">Contact me</a>
-        <nav><br>
+        <nav alt="Page menu">
+            <label for="menuButton" class="menu"><h2>Menu</h2></label>
+            <input type="checkbox" id="menuButton">
+            <div class="hiddenMenu">
+                 <ul>
+                      <li><a for="menuButton"  href="#projects"> input Projects</a></li>
+                      <li><a for="menuButton"  href="#aboutMe">More about me</a></li>
+                      <li><a for="menuButton"  href="#articles">My articles</a></li>
+                      <li><a for="menuButton"  href="#contact">Contact me</a></li>
+                 </ul>
+            </div>
+       </nav>
         <img src="http://petschoiceewell.co.uk/wp-content/uploads/2017/06/CAT-click-through_FLIP_RETOUCH_600px.jpg" alt="Alain Durand's Banner">
     </header>
     <main id="projects">

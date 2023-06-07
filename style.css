@@ -4,6 +4,7 @@ padding: 0;
 text-align:center;
 color:rgb(103, 45, 128);
 background-color:black;
+text-decoration-line: none;
 }
 img:hover{
 opacity:0.5;  
@@ -15,12 +16,15 @@ border-radius: 3px;
 border-color: purple;
 border-style: groove;
 }
-.hiddenMenu {
+#menuButton, .hiddenMenu{
 display: none;
-text-decoration-line: none;
 }
-nav:hover .hiddenMenu {
+.menu{
 display: block;
+}
+#menuButton:checked+.hiddenMenu {
+display: flex;
+flex-direction: column;
 }
 @media screen and (min-width: 0px) {
     *{
