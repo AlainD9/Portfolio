@@ -1,7 +1,6 @@
 *{
 margin: 0;
 padding: 0;
-font-size: 62.5%;
 text-align:center;
 color:rgb(103, 45, 128);
 background-color:black;
@@ -15,9 +14,6 @@ height: auto;
 border-radius: 3px;
 border-color: purple;
 border-style: groove;
-}
-header:first-child{
-filter:grayscale(100%)
 }
 .hiddenMenu {
 display: none;
