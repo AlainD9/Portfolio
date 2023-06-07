@@ -1,5 +1,40 @@
 *{
-    text-align:center;
+margin: 0;
+padding: 0;
+font-size: 62.5%;
+text-align:center;
+color:rgb(103, 45, 128);
+background-color:black;
+}
+img:hover{
+opacity:0.5;  
+}
+img{
+width: 100%;
+height: auto;
+border-radius: 3px;
+border-color: purple;
+border-style: groove;
+}
+header:first-child{
+filter:grayscale(100%)
+}
+.hiddenMenu {
+display: none;
+text-decoration-line: none;
+}
+nav:hover .hiddenMenu {
+display: block;
+}
+@media screen and (min-width: 0px) {
+    *{
     color:rgb(103, 45, 128);
-    background-color:black;
+        background: black;
+    }
+}
+@media screen and (min-width: 600px){
+    img{
+        width: 600px;
+        height: 600px;
+    }
 }
