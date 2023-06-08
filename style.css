@@ -5,7 +5,6 @@
 *{
 margin: 0;
 padding: 0;
-text-align:center;
 color:rgb(103, 45, 128);
 background-color:black;
 font-family: 'dancingScript';
@@ -20,6 +19,9 @@ height: auto;
 border-radius: 3px;
 border-color: purple;
 border-style: groove;
+}
+header{
+    text-align:center;
 }
 #menuButton, .hiddenMenu{
 display: none;
