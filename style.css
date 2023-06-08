@@ -14,8 +14,9 @@ img:hover{
 opacity:0.5; 
 }
 img{
-width: 100%;
+width: 600px;
 height: auto;
+margin: 0 1em;
 border-radius: 3px;
 border-color: purple;
 border-style: groove;
@@ -43,21 +44,33 @@ h2{
 }
 h3{
     font-size: 2.5em;
+    margin: 2em auto 1em auto
 }
 p{
     font-size: 1.5em;
 }
-h1 ,h2 .hiddenMenu, header img{
-    margin: 3em auto
+h1 {
+    margin: 3em auto;
+}
+h2 .hiddenMenu, header img{
+    margin: 3em auto;
 }
 header label{
     margin: 1em auto;
 }
-h3{
-    margin: 2em auto 1em auto
+.projects{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.txtProject1, .txtProject2, .txtProject3, .txtProject4{
+    margin-left: 2em;
+    width: 40%;
 }
 main p{
     margin-bottom: 1em;
+    text-align: justify;
 }
 main button{
     margin-bottom: 2em;
