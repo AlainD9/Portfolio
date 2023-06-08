@@ -2,85 +2,107 @@
     font-family: 'dancingScript';
     src: url(../../../Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
 }
+
 *{
-margin: 0;
-padding: 0;
-color:rgb(103, 45, 128);
-background-color:black;
-font-family: 'dancingScript';
-text-decoration-line: none;
+    margin: 0;
+    padding: 0;
+    color:rgb(103, 45, 128);
+    background-color:black;
+    font-family: 'dancingScript';
+    text-decoration-line: none;
 }
+
 img:hover{
-opacity:0.5; 
+    opacity:0.5;
 }
+
 img{
-width: 600px;
-height: auto;
-margin: 0 1em;
-border-radius: 3px;
-border-color: purple;
-border-style: groove;
+    width: 600px;
+    height: auto;
+    margin: 0 1em;
+    border-radius: 3px;
+    border-color: purple;
+    border-style: groove;
 }
+
 header{
     text-align:center;
 }
+
 #menuButton, .hiddenMenu{
-display: none;
+    display: none;
 }
+
 .menu{
-display: block;
+    display: block;
 }
+
 #menuButton:checked+.hiddenMenu {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 h1{
     font-size: 4em;
     text-decoration-line: underline;
     text-decoration-style:double;
 }
+
 h2{
     font-size: 3em;
 }
+
 h3{
     font-size: 2.5em;
     margin: 2em auto 1em auto
 }
+
 p{
     font-size: 1.5em;
 }
+
 h1 {
     margin: 3em auto;
 }
+
 h2 .hiddenMenu, header img{
     margin: 3em auto;
 }
+
 header label{
     margin: 1em auto;
 }
+
 .projects{
     width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
+
+.imgProject1, .imgProject2, .imgProject3, .imgProject4{
+    width: 50%;
+}
+
 .txtProject1, .txtProject2, .txtProject3, .txtProject4{
-    margin-left: 2em;
     width: 40%;
 }
+
 main p{
     margin-bottom: 1em;
     text-align: justify;
 }
+
 main button{
     margin-bottom: 2em;
     width: 6em;
     height: 1.5em;
     font-size: 1.5em;
 }
+
 @media screen and (min-width: 0px) {
     *{
-    color:rgb(103, 45, 128);
+        color:rgb(103, 45, 128);
         background: black;
     }
 }
