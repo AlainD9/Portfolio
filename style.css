@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'dancingScript';
+    src: url(../../../Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
 *{
 margin: 0;
 padding: 0;
 text-align:center;
 color:rgb(103, 45, 128);
 background-color:black;
+font-family: 'dancingScript';
 text-decoration-line: none;
 }
 img:hover{
@@ -26,11 +31,37 @@ display: block;
 display: flex;
 flex-direction: column;
 }
-header h1 ,h2 ,h3, header label, header .hiddenMenu{
-    margin: 1em auto
+h1{
+    font-size: 4em;
+    text-decoration-line: underline;
+    text-decoration-style:double;
+}
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 2.5em;
+}
+p{
+    font-size: 1.5em;
+}
+h1 ,h2 .hiddenMenu, header img{
+    margin: 3em auto
+}
+header label{
+    margin: 1em auto;
+}
+h3{
+    margin: 2em auto 1em auto
 }
 main p{
+    margin-bottom: 1em;
+}
+main button{
     margin-bottom: 2em;
+    width: 6em;
+    height: 1.5em;
+    font-size: 1.5em;
 }
 @media screen and (min-width: 0px) {
     *{
