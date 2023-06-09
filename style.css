@@ -3,7 +3,7 @@
     src: url(../../../Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     color:rgb(103, 45, 128);
@@ -12,28 +12,29 @@
     text-decoration-line: none;
 }
 
-img:hover{
+img:hover {
     opacity:0.5;
 }
 
-img{
+img {
     width: 600px;
     height: auto;
     margin: 0 1em;
-    border-radius: 3px;
+    border-radius: 0.5em;
     border-color: purple;
     border-style: groove;
+    border-radius: 2%;
 }
 
-header{
+header {
     text-align:center;
 }
 
-#menuButton, .hiddenMenu{
+#menuButton, .hiddenMenu {
     display: none;
 }
 
-.menu{
+.menu {
     display: block;
 }
 
@@ -42,22 +43,35 @@ header{
     flex-direction: column;
 }
 
-h1{
+h1 {
     font-size: 6em;
     text-decoration-line: underline;
     text-decoration-style: double;
 }
 
-h2{
+h2 {
     font-size: 5em;
 }
 
-h3{
+ul {
+    border: purple;
+    border-style: groove;
+    border-radius: 5%;
+    width: 20%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+li {
+    font-size: 2em;
+}
+
+h3 {
     font-size: 4em;
     /* margin: 2em auto 1em auto */
 }
 
-p{
+p {
     font-size: 2.5em;
 }
 
@@ -65,45 +79,51 @@ h1 {
     margin: 2em auto;
 }
 
-.hiddenMenu, header img{
+.hiddenMenu, header img {
     margin: 3em auto;
 }
 
-header label{
+header label {
     margin: 1em auto;
 }
 
-.projects{
+.projects {
     width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-.imgProject1, .imgProject2, .imgProject3, .imgProject4{
+.imgProject1, .imgProject2, .imgProject3, .imgProject4 {
     width: 50%;
     margin: 0.5em auto;
 }
 
-.txtProject1, .txtProject2, .txtProject3, .txtProject4{
-    width: 50%;
+.imgProject1 img, .imgProject2 img, .imgProject3 img, .imgProject4 img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.txtProject1, .txtProject2, .txtProject3, .txtProject4 {
+    width: 40%;
     margin: auto auto;
 }
 
-main h2{
+main h2 {
     margin-left: 20%;
 }
 
-main h3{
+main h3 {
     margin: 0.5em auto;
 }
 
-main p{
+main p {
     margin-bottom: 1em;
     text-align: justify;
 }
 
-main button{
+main button {
     margin-bottom: 2em;
     width: 6em;
     height: 1.5em;
@@ -117,7 +137,7 @@ main button{
     }
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
     img{
         width: 80%;
     }
