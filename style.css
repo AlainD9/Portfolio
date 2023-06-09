@@ -54,7 +54,7 @@ h2{
 
 h3{
     font-size: 4em;
-    margin: 2em auto 1em auto
+    /* margin: 2em auto 1em auto */
 }
 
 p{
@@ -62,7 +62,7 @@ p{
 }
 
 h1 {
-    margin: 3em auto;
+    margin: 2em auto;
 }
 
 .hiddenMenu, header img{
@@ -82,15 +82,20 @@ header label{
 
 .imgProject1, .imgProject2, .imgProject3, .imgProject4{
     width: 50%;
-    margin: 0 auto;
+    margin: 0.5em auto;
 }
 
 .txtProject1, .txtProject2, .txtProject3, .txtProject4{
-    width: 30%;
+    width: 50%;
+    margin: auto auto;
 }
 
 main h2{
     margin-left: 20%;
+}
+
+main h3{
+    margin: 0.5em auto;
 }
 
 main p{
